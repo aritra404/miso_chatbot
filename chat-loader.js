@@ -2,8 +2,8 @@
 (() => {
     // --- Configuration ---
     // IMPORTANT: Replace these with your actual URLs
-    const N8N_WEBHOOK_URL = 'YOUR_N8N_WEBHOOK_URL_HERE';
-    const CSS_URL = 'https://cdn.jsdelivr.net/gh/your-github-username/my-shopify-chatbot/chatbot.css';
+    const N8N_WEBHOOK_URL = 'http://localhost:5678/webhook-test/ddfb6cfb-539b-45c9-bcb9-dc12188b50fe';
+    const CSS_URL = 'https://cdn.jsdelivr.net/gh/github.com/aritra404/miso_chatbot/chatbot.css';
 
     // A unique ID for the conversation session
     const conversationId = `web-chat-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
